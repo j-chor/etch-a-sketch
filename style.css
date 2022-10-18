@@ -1,8 +1,27 @@
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 900px;
+}
+
+h1 {
+  /* margin: auto; */
+  color: rgb(109, 90, 7);
+}
+
 #container {
   display: flex;
   border: 1px solid black;
   width: 500px;
   height: 500px;
+  /* margin: 40px auto; */
+  background-color: white;
 }
 
 .column {
@@ -26,6 +45,15 @@
 }
 
 button {
-  margin: 0px auto;
+  /* margin: 20px auto; */
+  padding: 6px;
+  font-size: 20px;
+  background-color: wheat;
+  box-shadow: none;
+  border-radius: 9px;
 }
 
+p {
+  /* margin: auto; */
+  /* align-self: stretch; */
+}
