@@ -1,0 +1,16 @@
+#container {
+  display: flex;
+}
+
+.column .cell{
+  border: 1px solid grey;
+  height: 5px;
+  width: 5px;
+  margin: 0px;
+  
+}
+
+.cell:hover {
+  background-color: aquamarine;
+}
+
