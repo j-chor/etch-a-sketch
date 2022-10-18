@@ -1,16 +1,21 @@
 #container {
   display: flex;
+  border: 1px solid black;
+  width: max-content;
 }
 
 .cell, .cell-hovered {
-  border: 1px solid grey;
-  height: 5px;
-  width: 5px;
+  /* border: 1px solid grey; */
+  height: 8px;
+  width: 8px;
   margin: 0px;
-  
 }
 
 .cell-hovered {
   background-color: black;
+}
+
+button {
+  margin: 0px auto;
 }
 
