@@ -10,3 +10,11 @@ for (let i = 0; i < 16; i++) {
     column.appendChild(cell);
   }
 }
+
+let cells = document.querySelectorAll(".cell");
+
+cells.forEach(cell => {
+  cell.addEventListener("mouseover", () => {
+    cell.className = "cell-hovered";
+  })
+})
